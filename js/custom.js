@@ -15,7 +15,6 @@
       navText: [
         '<img src="img/icon/left.svg" alt="">',
         '<img src="img/icon/right.svg" alt="">'
-
       ],
       responsive: {
         0: {
@@ -43,14 +42,14 @@
   });
 
   // menu fixed js code
-  $(window).scroll(function () {
-    var window_top = $(window).scrollTop() + 1;
-    if (window_top > 50) {
-      $('.main_menu_iner').addClass('menu_fixed animated fadeInDown');
-    } else {
-      $('.main_menu_iner').removeClass('menu_fixed animated fadeInDown');
-    }
-  });
+  // $(window).scroll(function () {
+  //   var window_top = $(window).scrollTop() + 1;
+  //   if (window_top > 50) {
+  //     $('.main_menu_iner').addClass('menu_fixed animated fadeInDown');
+  //   } else {
+  //     $('.main_menu_iner').removeClass('menu_fixed animated fadeInDown');
+  //   }
+  // });
 // Owl Carousal
 $("#owl-slider").owlCarousel({
   items: 1,
