@@ -1,38 +1,39 @@
-html{
+html {
     scroll-behavior: smooth;
+    scroll-padding-top: 91px;
 }
 body {
     font-family: "Geogrotesque-ul", sans-serif;
     padding: 0;
     margin: 0;
     font-size: 14px;
-  }
-  @font-face {
+}
+@font-face {
     font-family: Geogrotesque-sbi;
     src: url(../fonts/Geog-SbIt.otf);
-  }
-  @font-face {
+}
+@font-face {
     font-family: Geogrotesque-ul;
     src: url(../fonts/Geogtq-Ul.otf);
-  }
-  @font-face {
+}
+@font-face {
     font-family: Geogrotesque-m;
     src: url(../fonts/Geogrotesque-Medium.otf);
-  }
-  input:hover, input:focus {
+}
+input:hover, input:focus {
     outline: none !important;
-  }
-  a {
+}
+a {
     text-decoration: none;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-  }
-  a:hover {
+}
+a:hover {
     color: #ff7e5f;
     text-decoration: none;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-  }
+}
   h1, h2, h3, h4, h5, h6 {
     color: #191d34;
     font-family: "Geogrotesque-m", sans-serif;
